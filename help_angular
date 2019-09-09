@@ -1,0 +1,18 @@
+
+// crear app
+ng new app-tareas
+
+// ir
+cd app-tareas
+
+// crear componentes
+ng g c shared/components/task
+ng g c shared/components/header
+
+// bootstrap
+install ngx-bootstrap --save
+
+// crear servicios
+ng g s shared/services
+
+
